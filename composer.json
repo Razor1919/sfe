@@ -20,30 +20,19 @@
   },
   "require": {
     "composer/installers": "^2.0",
-    "drupal/advancedqueue": "1.0.0-rc7",
-    "drupal/ajax_comments": "1.0.0-beta5",
-    "drupal/block_field": "1.0.0-rc4",
-    "drupal/config_update": "2.0.0-alpha3",
-    "drupal/core-composer-scaffold": "10.2.12",
-    "drupal/core-project-message": "10.2.12",
-    "drupal/core-recommended": "10.2.12",
-    "drupal/flag": "4.0.0-beta4",
-    "drupal/gin": "3.0.0-rc10",
-    "drupal/graphql": "4.6.0",
-    "drupal/graphql_oauth": "1.0.0-alpha3",
-    "drupal/like_and_dislike": "1.0.0-beta3",
+    "drupal/core-composer-scaffold": "10.3.9",
+    "drupal/core-project-message": "10.3.9",
+    "drupal/core-recommended": "10.3.9",
     "drupal/redis": "^1.6",
-    "drupal/ultimate_cron": "2.0.0-alpha7",
-    "drupal/url_embed": "2.0.0-alpha3",
-    "drupal/votingapi": "3.0.0-beta4",
     "drush/drush": "^12",
+    "goalgorilla/open_social": "^13.0@alpha",
     "oomphinc/composer-installers-extender": "^2.0",
     "platformsh/config-reader": "^2.4"
   },
   "conflict": {
     "drupal/drupal": "*"
   },
-  "minimum-stability": "stable",
+  "minimum-stability": "alpha",
   "prefer-stable": true,
   "config": {
     "allow-plugins": {
@@ -95,6 +84,6 @@
         "      composer remove drupal/core-project-message"
       ]
     },
-    "installer-types": ["bower-asset", "npm-asset"]
+    "installer-types": ["bower-asset", "npm-asset", "bower-asset", "npm-asset", "bower-asset", "npm-asset"]
   }
 }
